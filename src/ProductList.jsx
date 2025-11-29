@@ -309,7 +309,7 @@ function ProductList({ onHomeClick }) {
                                 id="mainIconPathAttribute"
                                 />
                             </svg>
-                            {cartItemCount > 0 && <span style={{position:'absolute', top:'-8px', right:'-8px', background:'red', color:'white', borderRadius:'50%', padding:'2px 6px', fontSize:'12px'}}>{cartItemCount}</span>}
+                            {cartItemCount > 0 && <span ClassName='cart_quantity_count'>{cartItemCount}</span>}
                             </h1>
                         </a>
                     </div>
